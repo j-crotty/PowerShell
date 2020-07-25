@@ -1,0 +1,1 @@
+Invoke-Command -Computer DC01 -ScriptBlock {Restart-Computer}
