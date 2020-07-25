@@ -1,1 +1,1 @@
-Invoke-Command -Computer DC01 -ScriptBlock {Restart-Computer -Force}
+Invoke-Command -Computer DC01,DC02 -ScriptBlock {Restart-Computer -Force}
