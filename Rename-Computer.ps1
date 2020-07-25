@@ -1,1 +1,1 @@
-Rename-Computer -NewName -ComputerName
+Rename-Computer -NewName NEW_COMPUTER_NAME -LocalCredential COMPUTERNAME\USER -Restart
