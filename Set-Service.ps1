@@ -1,0 +1,1 @@
+Set-Service -ComputerName DC01 -Name SERVICE_NAME -Status SERVICE_STATUS
