@@ -1,0 +1,1 @@
+Connect-EXOPSSession -UserPrincipalName <UPN>
