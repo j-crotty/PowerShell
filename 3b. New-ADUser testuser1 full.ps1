@@ -1,0 +1,1 @@
+New-ADUser -Name "Albert Schmidt" -GivenName "Albert" -Surname "Schmidt" -SamAccountName "a.schmidt" -UserPrincipalName "a.schmidt@woshub.com" -Path "OU=Users,OU=Accounts,OU=Berlin,OU=DE,DC=woshub,DC=com" -AccountPassword(Read-Host -AsSecureString "Input Password") -Enabled $true

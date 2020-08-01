@@ -1,0 +1,1 @@
+Invoke-Command -Computer DC01 -ScriptBlock {New-LocalUser -Name "User01", "User02", "User03", "User04" -Description "Description of this account." -NoPassword}
