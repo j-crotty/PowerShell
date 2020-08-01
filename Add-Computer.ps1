@@ -1,1 +1,1 @@
-Add-Computer -ComputerName DC01 -DomainName DOMAIN.LOCAL -Credential DOMAIN\Administrator -Restart
+Add-Computer -ComputerName DC01 -DomainName DOMAIN.LOCAL -Credential DOMAIN\Administrator
