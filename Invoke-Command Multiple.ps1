@@ -1,1 +1,1 @@
-Invoke-Command -ComputerName Server01, Server02 -ScriptBlock {Get-UICulture}
+Invoke-Command -ComputerName DC01, DC02 -ScriptBlock {Get-UICulture}
